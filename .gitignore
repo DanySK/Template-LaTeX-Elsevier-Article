@@ -10,3 +10,5 @@ latex.pdf
 .ide/
 .gradle/
 *.kate-swp
+elsarticle-template.pdf
+elsarticle-template.spl

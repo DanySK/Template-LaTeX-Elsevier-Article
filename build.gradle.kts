@@ -3,5 +3,7 @@ plugins {
 }
 
 latex {
-    "latex"()
+    "elsarticle-template" {
+        bib = "mybibfile.bib"
+    }
 }
