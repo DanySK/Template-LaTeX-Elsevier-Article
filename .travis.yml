@@ -1,5 +1,5 @@
 official-repo: &official-repo
-  DanySK/Template-LaTeX-CI
+  DanySK/Template-Elsevier-Article
 language: java
 addons:
   apt:
