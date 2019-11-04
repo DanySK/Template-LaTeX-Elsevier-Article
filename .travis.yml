@@ -17,6 +17,7 @@ addons:
       - texlive-latex-recommended
       - texlive-fonts-recommended
       - texlive-science
+      - texlive-publishers
       # Debug
       - tree
       # For git latexdiff
@@ -30,7 +31,7 @@ env:
 install: true
 script:
   - latex elsarticle.ins
-  - ./gradlew buildLatex
+  - ./gradlew buildLatex    
 before_deploy:
   - git config --local user.name "Danilo Pianini"
   - git config --local user.email "danilo.pianini@unibo.it"
