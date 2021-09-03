@@ -23,4 +23,4 @@ jobs:
         git add *.cls
         git commit -a -m "Update the cls file" || true
     - name: Push changes
-      uses: ad-m/github-push-action@0.6.0
+      uses: ad-m/github-push-action@v0.6.0
