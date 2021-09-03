@@ -1,5 +1,10 @@
+on:
+  push:
+    branches:
+      - master
+
 jobs:
-  compile-and-push:
+  compile-cls:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
