@@ -1,3 +1,4 @@
+name: Compile and push the cls
 on:
   push:
     branches:
