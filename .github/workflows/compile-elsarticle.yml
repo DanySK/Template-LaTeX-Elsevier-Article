@@ -20,7 +20,7 @@ jobs:
       run: |
         git config --local user.email "danilo.pianini@gmail.com"
         git config --local user.name "Danilo Pianini [bot]"
-        git add *.cls
+        git add -f elsarticle.cls
         git commit -a -m "Update the cls file" || true
     - name: Push changes
       uses: ad-m/github-push-action@v0.6.0
